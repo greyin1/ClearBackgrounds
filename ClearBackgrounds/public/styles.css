@@ -1,0 +1,124 @@
+/* Réinitialiser les marges et le padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global du corps */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f0f8ff; /* Couleur de fond amusante */
+    color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+    background: #ffcccb; /* Couleur de fond attrayante */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Style de la section principale */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Style de la section de téléchargement */
+.upload-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#fileInput {
+    margin-bottom: 10px;
+}
+
+#uploadBtn {
+    background: #4CAF50; /* Couleur du bouton */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+#uploadBtn:hover {
+    background: #45a049; /* Couleur de survol du bouton */
+}
+
+#preview {
+    margin-top: 20px;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+}
+
+#resultImage {
+    max-width: 100%;
+    max-height: 500px; /* Limiter la hauteur de l'image */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Style du lien de téléchargement */
+#downloadLink {
+    display: block;
+    margin-top: 10px;
+    background: #008CBA; /* Couleur du lien */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+#downloadLink:hover {
+    background: #007bb5; /* Couleur de survol du lien */
+}
+
+/* Style de la section "Comment ça marche" */
+.how-it-works {
+    margin-top: 30px;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Style du pied de page */
+footer {
+    background: #ffcccb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
